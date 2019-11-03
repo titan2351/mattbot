@@ -7,6 +7,14 @@
 - hey there
 - hello hello
 
+## intent:enquire_greet
+- how are you
+- how's it going
+- how is it going
+- are you well?
+- how are things?
+
+
 ## intent:goodbye
 - bye
 - goodbye
@@ -21,6 +29,7 @@
 - that sounds good
 - correct
 - absolutely
+- cool cool
 
 ## intent:deny
 - no
@@ -35,7 +44,13 @@
 ## intent:mood_great
 - perfect
 - very good
+- fine
+- i'm good
+- doing well
 - great
+- well
+- not too bad
+- not bad
 - amazing
 - wonderful
 - I am feeling very good
@@ -47,6 +62,8 @@
 - very sad
 - unhappy
 - bad
+- not doing well
+- not good
 - very bad
 - awful
 - terrible

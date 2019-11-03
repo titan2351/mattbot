@@ -38,6 +38,23 @@
 * bot_challenge
   - utter_iamabot
 
+## Generated Story 3320800183399695936
+* greet
+    - utter_greet
+* inform
+    - utter_ask_location
+* inform{"location": "uk"}
+    - slot{"location": "uk"}
+    - action_get_weather
+    - slot{"location": "uk"}
+* goodbye
+    - utter_goodbye
+    - export
+
+## bot challenge
+* enquire_greet
+    - utter_mood_great
+
 ## weather
 * greet
     - utter_greet

@@ -24,6 +24,7 @@ actions:
 - utter_iamabot
 - action_get_weather
 - utter_its_nice_to_meet_you
+- utter_ask_location
 
 templates:
   utter_greet:
@@ -44,6 +45,9 @@ templates:
 
   utter_iamabot:
   - text: "I am ...mattbot!"
+
+  utter_mood_great:
+  - text: "Yeah, not too bad, thank you!"
 
   utter_its_nice_to_meet_you:
   - It's nice to meet you, {PERSON}.
