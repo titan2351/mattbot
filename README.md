@@ -69,5 +69,8 @@ The universe our bot lives in: what user inputs it should expect to get, what ac
 </tbody>
 </table>
 
-5. train
+5. train <br>
 rasa train
+
+6. talk<br>
+rasa shell
