@@ -1,10 +1,12 @@
 # Configuration for Rasa NLU.
 # https://rasa.com/docs/rasa/nlu/components/
+# The language and pipeline keys specify how the NLU model should be built.
 language: en
 pipeline: supervised_embeddings
 
 # Configuration for Rasa Core.
 # https://rasa.com/docs/rasa/core/policies/
+# The policies key defines the policies that the Core model will use.
 policies:
   - name: MemoizationPolicy
   - name: KerasPolicy
